@@ -1,0 +1,241 @@
+.header-login{
+    text-align: center;
+}
+
+
+.container-auto{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.link-reg{
+}
+/* display:flex
+flex-wrap:wrap;
+justify-content:centre 
+justify-items:centre*/
+.link-reg:hover{
+    text-decoration: none;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border: 3px solid #4d4d4d;
+    background-color:#eee;
+    border-radius: 10px  ;
+    display: block;
+
+}
+input[type="text"],input[type="password"],input[type="email"]:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}
+
+
+button{
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #e74246;
+    border:none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.content{
+        width: 450px;
+        height: 50%;
+        text-align: center;
+        margin-top: 150px;
+}
+
+.sub-login{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*    width: 70%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    background: #eee;
+    outline: 2px solid black;
+     display: block;
+    margin: 80px auto;*/
+.basket-main{
+    width: 80%;
+    display: flex;
+    background:#eee;
+}
+
+.basket-info{
+    width: 80%;
+    height: 180px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.auth-page .main__footer{
+    padding-top: 55px;
+}
+
+.basket-main p{
+    color: black;
+    text-transform: uppercase;
+}
+.basket-main div{
+    width: 20%;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.basket-info div {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.basket-info p {
+    display: flex;
+    align-items: center;
+}
+.basket-decor{
+    display: flex;
+    padding: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.basket-main div:last-child{
+    border-right: none;
+}
+
+.basket-result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+.basket-pay{
+    width: 80%;
+}
+
+.basket-pay div{
+    width: 15%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.basket-pay button{
+    text-transform: uppercase;
+}
+
+.container-auto .about-us__schedule-block{
+    height: 70%;
+    margin-top: 100px;
+}
+
+.auth-content{
+    
+}
+
+.sub-login a{
+    display: block;
+    padding-top: 10px;
+    padding-top: 10px;
+    color: #00bc6c;
+}
+
+
+
+.auth-content button{
+    text-transform: uppercase;
+    background-color: #00bc6c;
+}
+
+.reg-submit{
+    display: flex;
+    justify-content: center;
+}
+
+.basket-info__image{
+    flex-direction: column;
+}
+
+.logo_user{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_user img{
+    max-height: 312px;
+
+}
+
+ .info_user{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border: 3px solid #e74246;
+    /* background-color: #eee; */
+    background-color: #eee;
+    border-radius: 10px
+}
+
+.info_user:focus{
+    outline: none;
+}
+
+ .content_edit{
+    height: 50%;
+    margin-top: 150px;
+}
+
+.content_edit input{
+    /* background-color: #e74246; */
+}
+
+.page_edit .container-auto{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.info_user p{
+    margin: 14px 0;
+}
+
+.form__error{
+    margin-bottom: 20px;
+    display: none;
+    color: #e74246;
+}
+
+.input--error + .form__error {
+display: block;
+
+
+}   

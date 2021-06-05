@@ -31,7 +31,6 @@
                 <? endif; ?>
           </ul>        
           <ul class="user-navigation list">
-          <li class="nav-cursor"><a href="basket.php"><img src="img/shopping-cart.svg "  alt="Корзина"></a></li>
           <? if ( isset( $_COOKIE["user"])): ?>
                   <li><a href="logout.php">Выход</a></li>
                   <? else: ?>

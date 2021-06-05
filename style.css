@@ -164,7 +164,7 @@ input[type="radio"].visually-hidden {
 .user-navigation {
   width: 125px;
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-end;
   /* padding-top: 8px; */
 }
 .nav-cursor:hover{
